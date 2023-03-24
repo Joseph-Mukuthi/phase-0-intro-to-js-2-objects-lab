@@ -1,4 +1,5 @@
 require ( './helpers.js' );
+require ('../index.js');
 
 describe('employees', function() {
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
